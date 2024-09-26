@@ -3,10 +3,14 @@
 </script>
 
 <template>
-    <div id="container">
-        <div class="menu">
+    <div id="container">        
+        <div class="logo">
             <img src="../assets/logo/Logo.svg" alt="">
-            <div class="whatsapp"><span>Solicite um Taxi: </span><a href="https://api.whatsapp.com/send/?phone=5542999388022" target="_blank">(42) 9 9938 8022</a></div>            
+        </div>            
+        <div class="whatsapp">
+            <span>Solicite um Taxi: </span><a href="https://api.whatsapp.com/send/?phone=5542999388022" target="_blank">(42) 9 9938 8022</a>
+        </div>
+        <div class="menu">
             <nav>
                 <ul>
                     <li>Inicio</li>
@@ -15,36 +19,35 @@
                     <li>Galeria</li>
                     <li>Contato</li>
                 </ul>
-            </nav>
-        </div>
+            </nav>    
+        </div>            
     </div>
-    
 </template>
 
 <style scoped>
+
     #container{
         width: 100%;
-        height: 80px;
+        height: 90px;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
+        background-color: rgb(226, 226, 202);
     }
-    .menu{
-        width: 100%;
-        height: 80px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
+    .logo{
+        margin: 0 0 0 15px;
     }
     ul{
-        width: 100%;
         display: flex;
+        padding: 0;
+        margin: 0;
+        list-style: none;
     }
     li{
-        width: 100px;
+        width: 120px;
+        padding: 5px;
         list-style: none;
     }
 </style>
