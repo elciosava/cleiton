@@ -1,10 +1,13 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import MenuComponente from './components/menu_componente.vue'
+import inicioComponente from './components/inicioComponente.vue';
+
 </script>
 
 <template>
   <MenuComponente />
+  <inicioComponente />
   <RouterView />
   <RouterLink />
 </template>
