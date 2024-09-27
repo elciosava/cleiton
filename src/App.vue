@@ -21,4 +21,7 @@ import SobreComponente from './components/sobre_componente.vue';
     box-sizing: border-box;
     font-family: 'Roboto';
   }
+  ::-webkit-scrollbar {
+    width: 1px; /* largura da barra de rolagem */
+  }
 </style>

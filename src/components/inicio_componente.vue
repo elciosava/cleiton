@@ -35,7 +35,7 @@
 <style scoped>
     #container{
         background-image: url("../assets/imagem/fundo_inicio.jpg");
-        height: calc(100vh - 110px);
+        height: calc(100vh - 200px);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -44,7 +44,8 @@
         justify-content: center;
         flex-direction: column;
         align-content: center;
-        padding-bottom: 230px;
+        padding-bottom: 100px;
+        padding-top: 50px;
     }
     .texto_amarelo{
         color: #FFC700;
