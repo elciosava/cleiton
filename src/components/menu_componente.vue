@@ -30,7 +30,7 @@
     #cabecalho{
         background-color: #FFC700;
         height: 20px;
-        width: 100vw;
+        width: 100%;
     }
     #container{
         width: 100%;
