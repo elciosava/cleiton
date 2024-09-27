@@ -14,8 +14,19 @@
         </div>
         <div class="botao">
             <button>CONTRATE AGORA</button>
+        </div>        
+    </div>
+    <div class="rodape_inicio">
+        <div class="resumos">
+
         </div>
-        <div class="rodape_inicio">
+        <div class="resumos">
+
+        </div>
+        <div class="resumos">
+
+        </div>
+        <div class="resumos">
 
         </div>
     </div>
@@ -23,9 +34,8 @@
 
 <style scoped>
     #container{
-        position: relative;
         background-image: url("../assets/imagem/fundo_inicio.jpg");
-        height: calc(100vh - 300px);
+        height: calc(100vh - 110px);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -34,7 +44,7 @@
         justify-content: center;
         flex-direction: column;
         align-content: center;
-        padding: 60px;
+        padding-bottom: 230px;
     }
     .texto_amarelo{
         color: #FFC700;
@@ -67,16 +77,23 @@
         color: #010101;
     } 
     .rodape_inicio{
-        height: 200px;
-        width: 100vw;
+        height: 270px;
         background-color: #ffffff;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        padding: 50px;
+        padding: 0 100px 0 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
     }
     p{
         margin-top: 2px;
         margin-bottom: 2px;
+    }
+    .resumos{
+        border: solid 1px black;
+        width: 270px;
+        height: 175px;
     }
 </style>
