@@ -81,6 +81,7 @@
         color: #ffffff;
         cursor: pointer;
         transition: background-position 0.4s ease, color 0.4s ease;
+        font-weight: 300;
     }   
     button:hover {
         background-position: left; 
