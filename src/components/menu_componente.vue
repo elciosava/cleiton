@@ -4,6 +4,7 @@
 
 <template>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <div id="cabecalho"></div>
     <div id="container">        
         <div class="logo">
             <img src="../assets/logo/Logo.svg" alt="">
@@ -26,7 +27,11 @@
 </template>
 
 <style scoped>
-
+    #cabecalho{
+        background-color: #FFC700;
+        height: 20px;
+        width: 100vw;
+    }
     #container{
         width: 100%;
         height: 90px;

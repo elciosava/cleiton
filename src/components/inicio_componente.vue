@@ -15,13 +15,17 @@
         <div class="botao">
             <button>CONTRATE AGORA</button>
         </div>
+        <div class="rodape_inicio">
+
+        </div>
     </div>
 </template>
 
 <style scoped>
     #container{
+        position: relative;
         background-image: url("../assets/imagem/fundo_inicio.jpg");
-        height: calc(100vh - 90px);
+        height: calc(100vh - 300px);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -30,6 +34,7 @@
         justify-content: center;
         flex-direction: column;
         align-content: center;
+        padding: 60px;
     }
     .texto_amarelo{
         color: #FFC700;
@@ -56,13 +61,22 @@
         color: #ffffff;
         cursor: pointer;
         transition: background-position 0.4s ease, color 0.4s ease;
+    }   
+    button:hover {
+        background-position: left; 
+        color: #010101;
+    } 
+    .rodape_inicio{
+        height: 200px;
+        width: 100vw;
+        background-color: #ffffff;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        padding: 50px;
     }
     p{
         margin-top: 2px;
         margin-bottom: 2px;
-    }
-    button:hover {
-        background-position: left; 
-        color: #010101;
     }
 </style>
