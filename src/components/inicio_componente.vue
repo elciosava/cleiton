@@ -24,13 +24,19 @@
             <span>Veiculos confortaveis</span>
         </div>
         <div class="resumos">
-
+            <span class="material-symbols-outlined" style="font-size: 3em; color: #FFC700; ">person</span>
+            <h1>1</h1>
+            <span>Excelente motorista</span>
         </div>
         <div class="resumos">
-
+            <span class="material-symbols-outlined" style="font-size: 3em; color: #FFC700; ">paid</span>
+            <h1>12</h1>
+            <span>Melhores preços</span>
         </div>
         <div class="resumos">
-
+            <span class="material-symbols-outlined" style="font-size: 3em; color: #FFC700; ">flag</span>
+            <h1>565</h1>
+            <span>Clientes atendidos</span>
         </div>
     </div>
 </template>
