@@ -10,7 +10,7 @@
             <img src="../assets/logo/Logo.svg" alt="">
         </div>            
         <div class="whatsapp">
-            <span class="material-symbols-outlined" style="color: #FFC700;">phone_android</span><span>Solicitar um motorista: </span><a href="https://api.whatsapp.com/send/?phone=554999930655" target="_blank">(49) 9 9993 0655</a>
+            <span class="material-symbols-outlined" style="color: #FFC700; font-size: 2em;">phone_android</span><span style="font-size: 1.3em;">Solicitar um motorista: </span><a style="font-size: 1.3em;" href="https://api.whatsapp.com/send/?phone=554999930655" target="_blank">(49) 9 9993 0655</a>
         </div>
         <div class="menu">
             <nav>
@@ -66,23 +66,30 @@
         color: #FFC700;     
         cursor: pointer;
     }
-    ul{
+    ul {
         display: flex;
         padding: 0;
         margin: 0;
         list-style: none;
     }
-    li{
-        width: 120px;
-        padding: 5px;
+    li {
+        padding: 0 20px 0 20px;
+        margin: 0 20px 0 20px;
         list-style: none;
         cursor: pointer;
+        position: relative;
     }
-    li:hover{
-        width: 120px;
-        padding: 5px;
-        list-style: none;
-        color: #FFC700;
-        cursor: pointer;
+    li::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: #FFC700;
+        transition: width 0.3s ease;
+    }
+    li:hover::after {
+        width: 100%;
     }
 </style>
