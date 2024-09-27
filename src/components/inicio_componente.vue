@@ -3,6 +3,7 @@
 </script>
 
 <template>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <div id="container">
         <div class="texto_amarelo">
             <p>PRECISA DE UMA CARONA?</p>
@@ -18,7 +19,9 @@
     </div>
     <div class="rodape_inicio">
         <div class="resumos">
-
+            <span class="material-symbols-outlined" style="font-size: 3em; color: #FFC700; ">directions_car</span>
+            <h1>1</h1>
+            <span>Veiculos confortaveis</span>
         </div>
         <div class="resumos">
 
@@ -93,8 +96,12 @@
         margin-bottom: 2px;
     }
     .resumos{
-        border: solid 1px black;
-        width: 270px;
+        width: 240px;
         height: 175px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
     }
 </style>
