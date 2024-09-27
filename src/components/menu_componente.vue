@@ -10,7 +10,7 @@
             <img src="../assets/logo/Logo.svg" alt="">
         </div>            
         <div class="whatsapp">
-            <span class="material-symbols-outlined" style="color: #FFC700;">phone_android</span><span>Solicitar um motorista: </span><a href="https://api.whatsapp.com/send/?phone=5542999388022" target="_blank">(42) 9 9938 8022</a>
+            <span class="material-symbols-outlined" style="color: #FFC700;">phone_android</span><span>Solicitar um motorista: </span><a href="https://api.whatsapp.com/send/?phone=554999930655" target="_blank">(49) 9 9993 0655</a>
         </div>
         <div class="menu">
             <nav>
