@@ -109,6 +109,6 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
     }
 </style>

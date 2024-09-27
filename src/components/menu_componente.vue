@@ -43,7 +43,7 @@
         background-color: #f7f7f7;
     }
     .logo{
-        margin: 0 0 0 15px;
+        margin: 0 0 0 25px;
     }
     .whatsapp{
         display: flex;
