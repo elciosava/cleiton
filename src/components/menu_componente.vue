@@ -9,16 +9,16 @@
             <img src="../assets/logo/Logo.svg" alt="">
         </div>            
         <div class="whatsapp">
-            <span class="material-symbols-outlined" style="color: #FFC700;">phone_android</span><span>Solicite um Taxi: </span><a href="https://api.whatsapp.com/send/?phone=5542999388022" target="_blank">(42) 9 9938 8022</a>
+            <span class="material-symbols-outlined" style="color: #FFC700;">phone_android</span><span>Solicitar um motorista: </span><a href="https://api.whatsapp.com/send/?phone=5542999388022" target="_blank">(42) 9 9938 8022</a>
         </div>
         <div class="menu">
             <nav>
                 <ul>
-                    <li>Inicio</li>
-                    <li>Sobre nós</li>
-                    <li>Turismo</li>
-                    <li>Galeria</li>
-                    <li>Contato</li>
+                    <li>INÍCIO</li>
+                    <li>SOBRE</li>
+                    <li>TURISMO</li>
+                    <li>GALERIA</li>
+                    <li>CONTATO</li>
                 </ul>
             </nav>    
         </div>            
@@ -77,7 +77,7 @@
         width: 120px;
         padding: 5px;
         list-style: none;
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        color: #FFC700;
         cursor: pointer;
     }
 </style>
