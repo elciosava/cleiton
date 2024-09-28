@@ -8,6 +8,7 @@
             <div class="perfil">
 
             </div>
+            <h2>Sobre mim</h2>
             <p>Olá, meu nome é Cleiton! Sou natural de Urubici, uma cidade que conheço como a palma da minha mão. 
                 Ao longo dos anos, me especializei em oferecer serviços de turismo pela belíssima Serra Catarinense, 
                 proporcionando experiências únicas para quem deseja explorar essa região incrível.
@@ -59,6 +60,7 @@
         width: 200px;
         height: 200px;
         padding: 100px;
+        box-shadow: 0 0 45px #454242;
     }
     .texto{
         width: 50%;
@@ -69,6 +71,9 @@
         justify-content: space-evenly;
         align-items: center;
         align-content: center;
+    }
+    h2{
+        padding: 20px;
     }
     p{
         padding: 20px;
