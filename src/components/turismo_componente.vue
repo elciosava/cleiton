@@ -21,7 +21,7 @@
         justify-content: space-around;
         flex-direction: row;
         align-content: center;
-        background-color: #ffffff;
+        background-color: #f7f7f7;
         flex-wrap: wrap;
     }
     
