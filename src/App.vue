@@ -1,8 +1,9 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import MenuComponente from './components/menu_componente.vue'
+import { RouterLink, RouterView } from 'vue-router';
+import MenuComponente from './components/menu_componente.vue';
 import InicioComponente from './components/inicio_componente.vue';
 import SobreComponente from './components/sobre_componente.vue';
+import TurismoComponente from './components/turismo_componente.vue';
 
 </script>
 
@@ -10,6 +11,7 @@ import SobreComponente from './components/sobre_componente.vue';
   <MenuComponente />
   <InicioComponente />
   <SobreComponente />
+  <turismoComponente />
   <RouterView />
   <RouterLink />
 </template>
