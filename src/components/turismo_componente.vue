@@ -10,9 +10,9 @@
         <div class="texto">
             <h2>Descubra os Encantos de Urubici, SC: Os Melhores Pontos Turísticos</h2>
             <p>Urubici, situada no coração da Serra Catarinense, é um dos destinos mais belos e visitados de Santa Catarina, 
-                conhecido por sua natureza exuberante, clima agradável e paisagens de tirar o fôlego. Seja você um amante de 
-                aventuras, ecoturismo ou apenas deseja relaxar em meio à natureza, Urubici oferece atrações que certamente 
-                vão te encantar. A seguir, conheça alguns dos principais pontos turísticos da cidade:</p>
+            conhecido por sua natureza exuberante, clima agradável e paisagens de tirar o fôlego. Seja você um amante de 
+            aventuras, ecoturismo ou apenas deseja relaxar em meio à natureza, Urubici oferece atrações que certamente 
+            vão te encantar. A seguir, conheça alguns dos principais pontos turísticos da cidade:</p>
         </div>
     </div>
 </template>
