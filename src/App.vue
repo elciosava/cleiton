@@ -4,14 +4,15 @@ import MenuComponente from './components/menu_componente.vue';
 import InicioComponente from './components/inicio_componente.vue';
 import SobreComponente from './components/sobre_componente.vue';
 import TurismoComponente from './components/turismo_componente.vue';
-
+import ContatoComponente from './components/contato_componente.vue';
 </script>
 
 <template>
   <MenuComponente />
   <InicioComponente />
   <SobreComponente />
-  <turismoComponente />
+  <TurismoComponente />
+  <ContatoComponente />
   <RouterView />
   <RouterLink />
 </template>
