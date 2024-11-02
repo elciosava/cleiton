@@ -12,7 +12,7 @@ const statusMessage = ref('');
 
 const sendEmail = async () => {
     try {
-        const response = await axios.post('https://seu-backend.com/api/send-email', form.value);
+        const response = await axios.post('https://localhost:5173/src/api/envia_email.php', form.value);
         statusMessage.value = 'E-mail enviado com sucesso!';
     } catch (error) {
         statusMessage.value = 'Erro ao enviar o e-mail. Tente novamente.';

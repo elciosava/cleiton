@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $data['email'];
     $message = $data['message'];
 
-    $to = 'seuemail@exemplo.com';
+    $to = 'elciosava@outlook.com';
     $subject = 'Novo contato de ' . $name;
     $body = "Nome: $name\nE-mail: $email\nMensagem:\n$message";
     $headers = "From: $email";
