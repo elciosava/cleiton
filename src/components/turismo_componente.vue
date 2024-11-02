@@ -5,7 +5,7 @@
 <template>
     <div id="container">
         <div class="carrocel">
-
+            <p>aqui vai o carrocel!!</p>
         </div>    
         <div class="texto">
             <h2>Descubra os Encantos de Urubici, SC: Os Melhores Pontos Turísticos</h2>
