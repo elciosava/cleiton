@@ -24,22 +24,14 @@ const sendEmail = async () => {
 <template>
     <div id="container">
         <div class="form_contato">
-            <div>
-                <h3>Nos envie uma mensagem!</h3>
-            </div>
+            <h3>Nos envie uma mensagem!</h3>
             <form @submit.prevent="sendEmail">
-                <div>
                     <label for="name">Nome:</label>
                     <input type="text" id="name" v-model="form.name" required />
-                </div>
-                <div>
                     <label for="email">E-mail:</label>
                     <input type="email" id="email" v-model="form.email" required />
-                </div>
-                <div>
                     <label for="message">Mensagem:</label>
                     <textarea id="message" v-model="form.message" required></textarea>
-                </div>
                 <button type="submit">Enviar</button>
             </form>
             <p v-if="statusMessage">{{ statusMessage }}</p>
@@ -51,15 +43,29 @@ const sendEmail = async () => {
 #container {
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
 }
-
+.form_contato{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+}
 form div {
-    width: 300px;
+    width: 100%;
     margin: 1rem 0 1rem 0;
 }
-
+h3{
+    margin-bottom: 20px;
+}
 label {
     display: block;
     margin-bottom: 0.5rem;
