@@ -18,11 +18,15 @@ const sendEmail = async () => {
         statusMessage.value = 'Erro ao enviar o e-mail. Tente novamente.';
     }
 };
+
 </script>
 
 <template>
     <div id="container">
         <div class="form_contato">
+            <div>
+                <h3>Nos envie uma mensagem!</h3>
+            </div>
             <form @submit.prevent="sendEmail">
                 <div>
                     <label for="name">Nome:</label>
@@ -52,7 +56,8 @@ const sendEmail = async () => {
 }
 
 form div {
-    margin-bottom: 1rem;
+    width: 300px;
+    margin: 1rem 0 1rem 0;
 }
 
 label {
@@ -67,7 +72,22 @@ textarea {
 }
 
 button {
-    padding: 0.5rem 1rem;
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.0em;
+    background: linear-gradient(to right, #FFC700 50%, #000000 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    color: #ffffff;
     cursor: pointer;
+    transition: background-position 0.4s ease, color 0.4s ease;
+    font-weight: 300;
+}
+
+button:hover {
+    background-position: left;
+    color: #010101;
 }
 </style>
