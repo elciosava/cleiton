@@ -12,7 +12,7 @@ const statusMessage = ref('');
 
 const sendEmail = async () => {
     try {
-        const response = await axios.post('https://localhost:5173/src/api/envia_email.php', form.value);
+        const response = await axios.post('http://localhost:5173/src/api/envia_email.php', form.value);
         statusMessage.value = 'E-mail enviado com sucesso!';
     } catch (error) {
         statusMessage.value = 'Erro ao enviar o e-mail. Tente novamente.';
@@ -23,15 +23,20 @@ const sendEmail = async () => {
 
 <template>
     <div id="container">
+        <div class="endereco">
+            <p style="display: flex; align-content: center; justify-content: flex-start;"><span class="material-symbols-outlined" >location_on</span>Avenida Adolfo Konder, 1187</p>
+            <p style="margin-left: 24px;">Bairro Traçado</p>
+            <p style="margin-left: 24px;">Urubici - SC</p>
+        </div>
         <div class="form_contato">
             <h3>Nos envie uma mensagem!</h3>
             <form @submit.prevent="sendEmail">
-                    <label for="name">Nome:</label>
-                    <input type="text" id="name" v-model="form.name" required />
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" v-model="form.email" required />
-                    <label for="message">Mensagem:</label>
-                    <textarea id="message" v-model="form.message" required></textarea>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" v-model="form.name" required />
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" v-model="form.email" required />
+                <label for="message">Mensagem:</label>
+                <textarea id="message" v-model="form.message" required></textarea>
                 <button type="submit">Enviar</button>
             </form>
             <p v-if="statusMessage">{{ statusMessage }}</p>
@@ -45,27 +50,41 @@ const sendEmail = async () => {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
+    background-color: #FFC700;
 }
-.form_contato{
-    width: 60%;
+
+.form_contato {
+    width: 500px;
     display: flex;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    background-color: red;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 25px, #010101;
 }
-form div {
-    width: 100%;
-    margin: 1rem 0 1rem 0;
+.endereco{
+    background-color: #010101;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 25px, #010101;
+    padding: 20px;
 }
-h3{
+p{
+    padding: 4px;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+h3 {
     margin-bottom: 20px;
 }
+
 label {
     display: block;
     margin-bottom: 0.5rem;
