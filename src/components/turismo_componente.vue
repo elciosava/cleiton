@@ -1,11 +1,21 @@
 <script setup>
-
+import Carousel from '@/components/Carousel.vue';
+  import { ref } from 'vue';
+  
+  // Definindo as imagens do carrossel
+  const slides = ref([
+    'https://turismo.uai.com.br/wp-content/uploads/2024/05/unnamed-2024-05-28T094117.984.jpg',
+    'https://static.ndmais.com.br/2022/12/06072022-dji-0026-scaled.jpg',
+    'https://visiteaserrasc.com.br/painel/img/vserrasc_site/6_cidades_14253.jpg'
+  ]);
 </script>
 
 <template>
     <div id="container">
         <div class="carrocel">
-            <p>aqui vai o carrocel!!</p>
+            <div class="carousel-container">
+      <Carousel :slides="slides" />
+    </div>
         </div>    
         <div class="texto">
             <h2>Descubra os Encantos de Urubici, SC: Os Melhores Pontos Turísticos</h2>
@@ -18,6 +28,10 @@
 </template>
 
 <style scoped>
+  .carousel-container {
+    padding: 2rem;
+  }
+
     *{
         margin: 0;
         padding: 0;
