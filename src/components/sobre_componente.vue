@@ -72,7 +72,7 @@
     flex-direction: column;
 }
 .perfil {
-    width: 40%;
+    width: 60%;
     height: 100vh;
     display: flex;
     justify-content: center;
