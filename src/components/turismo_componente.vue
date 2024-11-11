@@ -48,10 +48,18 @@ import Carousel from '@/components/Carousel.vue';
         flex-wrap: wrap;
     }
     .texto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         width: 50%;
         height: 100vh;
     }
     .carrocel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         width: 50%;
         height: 100vh;
     }
