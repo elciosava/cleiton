@@ -5,6 +5,8 @@ import InicioComponente from './components/inicio_componente.vue';
 import SobreComponente from './components/sobre_componente.vue';
 import TurismoComponente from './components/turismo_componente.vue';
 import ContatoComponente from './components/contato_componente.vue';
+import Guiaturistico_componente from './components/guiaturistico_componente.vue';
+
 </script>
 
 <template>
@@ -12,6 +14,7 @@ import ContatoComponente from './components/contato_componente.vue';
   <InicioComponente />
   <SobreComponente />
   <TurismoComponente />
+  <Guiaturistico_componente />
   <ContatoComponente />
   <RouterView />
   <RouterLink />

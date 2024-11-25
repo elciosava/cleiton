@@ -1,9 +1,6 @@
 <template>
     <div class="carousel">
-      <div
-        class="carousel-track"
-        :style="{ transform: `translateX(-${currentSlide * 100}%)` }"
-      >
+      <div class="carousel-track":style="{ transform: `translateX(-${currentSlide * 100}%)` }">
         <div v-for="(slide, index) in slides" :key="index" class="carousel-slide">
           <img :src="slide" :alt="'Slide ' + (index + 1)" />
         </div>
@@ -42,9 +39,9 @@
   .carousel {
     position: relative;
     overflow: hidden;
-    width: 90%;
+    width: 80%;
     max-width: auto;
-    max-height: 400px;
+    max-height: 500px;
     border-radius: 8px;
     margin: auto;
   }
